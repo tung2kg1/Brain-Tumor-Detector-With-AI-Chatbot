@@ -7,7 +7,7 @@ import google.generativeai as genai
 import warnings
 warnings.filterwarnings("ignore")
 
-genai.configure(api_key="AIzaSyDLwCXbGtlGHhhmoUGMsdcQz2DIVhXV1Ww")
+genai.configure(api_key="YOUR_API_KEY_HERE")
 model_gemini = genai.GenerativeModel('gemini-2.5-flash-preview-09-2025')
 
 MODEL_PATH = "brain_tumor_xception.h5"
